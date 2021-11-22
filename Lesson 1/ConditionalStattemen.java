@@ -6,7 +6,7 @@ public class ConditionalStattemen {
         }
 
         boolean maleGender = true;
-        if(maleGender = true) {
+        if(maleGender) {
             System.out.println("да верно");
         }
 
