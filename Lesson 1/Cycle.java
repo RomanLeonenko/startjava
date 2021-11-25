@@ -10,11 +10,17 @@ public class Cycle {
             System.out.println(a);
             a -=1;
         }
-
-        int b = 11;
+        
+        int sum = 0;
+        int result = 10;
         do {
-            System.out.println(b++);
-            b++;
-        } while(b < 20);
+            if(result % 2 == 1) {
+                sum += result;
+            }
+            result++;
+        } while(result < 20);
+
+            System.out.println(sum);
+
     }
 }
