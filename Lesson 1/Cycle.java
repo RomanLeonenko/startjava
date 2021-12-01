@@ -6,21 +6,19 @@ public class Cycle {
         }
 
         int a = 6;
-        while (a >=-6) {
+        while (a >= -6) {
             System.out.println(a);
-            a -=1;
+            a -= 1;
         }
         
         int sum = 0;
-        int result = 10;
+        int counter = 10;
         do {
-            if(result % 2 == 1) {
-                sum += result;
+            if(counter % 2 == 1) {
+                sum += counter;
             }
-            result++;
-        } while(result < 20);
-
+            counter++;
+        } while(counter < 20);
             System.out.println(sum);
-
     }
 }
